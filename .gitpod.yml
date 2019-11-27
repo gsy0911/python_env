@@ -1,0 +1,12 @@
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+- port: 8080
+  onOpen: open-preview
+# for jupyter
+- port: 8888
+  onOpen: open-browser
+# for chalice
+- port: 8000
+  onOpen: open-browser
